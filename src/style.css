@@ -1,0 +1,13 @@
+h1,
+p {
+  font-family: Lato;
+}
+.fullscreen video {
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+}
+.fullscreen.fullscreen-enabled video {
+  width: 100% !important;
+  height: 100% !important;
+}
